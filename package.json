@@ -1,0 +1,25 @@
+{
+  "name": "sm3-standard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhbbeijing/sm3-standard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhbbeijing/sm3-standard/issues"
+  },
+  "homepage": "https://github.com/hhbbeijing/sm3-standard#readme",
+  "devDependencies": {
+    "vite": "^4.5.0",
+    "vite-plugin-dts": "^3.6.3",
+    "vue": "^3.3.8"
+  }
+}
