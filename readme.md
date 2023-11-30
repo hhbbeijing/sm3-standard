@@ -4,21 +4,24 @@
 
 安装
 > 
->npm install --save sm-crypto
+>npm install --save sm3-standard
 > 
 
 使用
-```ts
-import { sm3 } from 'sm3-standard'
-
-let hashData = sm3('abc') // 杂凑
-
-// hmac
-hashData = sm3('abc', {
-    key: 'daac25c1512fe50f79b0e4526b93f5c0e1460cef40b6dd44af13caec62e8c60e0d885f3c6d6fb51e530889e6fd4ac743a6d332e68a0f2a3923f42585dceb93e9', // 要求为 16 进制串或字节数组
-})
+> 
+1、main.ts
+```
+import sm3 from 'sm3-standard'
+app.use(sm3)
 ```
 
+2、xxx.vue
+```
+import sm3Hash from "sm3-standard/src/sm3";
+...
+console.log('明文：123')
+console.log('密文：' + sm3Hash('123'))
+```
 
 
 

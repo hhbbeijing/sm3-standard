@@ -1,8 +1,9 @@
 {
   "name": "sm3-standard",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "国密SM3密码杂凑算法。基于中国国家密码管理局，2010年12月发布的版本。\n",
-  "main": "index.js",
+  "main": "dist/sm3.umd.js",
+  "types": "dist/sm3.d.ts",
   "scripts": {
     "test": "jest",
     "build": "vite build",
